@@ -4,15 +4,15 @@
 
 Basic approach I implemented only considers direction:
 * calculate average direction to all neighbors 
-* move to opposite direction of all neighors
+* move to opposite direction of all neighbors
 
-Approach can be improved by calculating weighted average with weights
-being the 1/(distance to agent). However for large arenas this does not
+Approach can be improved by calculating weighted average with weights 
+1/(distance to agent). However for large arenas this does not
 make a difference in the final outcome when each agent has maximal distance in the end. 
 For small arenas, were the whole area can be covered by agents, it may improve
-result (I havent tested it)
+results (I havent tested)
 
-If agent is only able to see distances move to direction where distance
+If the agent is only able to see distances, move to direction where distance
 increases the most. This direction can be infered by jiggling around a little
 bit.
 
