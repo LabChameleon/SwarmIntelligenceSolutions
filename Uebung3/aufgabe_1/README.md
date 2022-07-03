@@ -7,7 +7,7 @@ Use two different radius for measuring number of neighbors:
 
 Increase wait time with a quadratic function, e.g. x^2, with input the number
 of neighbors in larger radius. Quadratic function punishes small cluster more with
-small wait times and favours large cluster. Exponetial functions, e.g. 2^x, favour larger
+small wait times and favours large cluster. Exponetial functions favour larger
 clusters sometimes too much (depends on the number of agents and the arena size). 
 Thus, medium sized clusters may be stable independently from each other in some cases.
 With linear functions small clusters can already take very long to collapse and hence make
